@@ -1,0 +1,184 @@
+{
+  "categories": [
+    { "id": "casual", "title": "Casual Standing", "icon": "directions_walk" },
+    { "id": "sitting", "title": "Sitting & Cafe", "icon": "chair" },
+    { "id": "leaning", "title": "Wall & Railing", "icon": "apartment" },
+    { "id": "portrait", "title": "Portrait & Close-up", "icon": "face" },
+    { "id": "mirror", "title": "Mirror Selfie", "icon": "smartphone" }
+  ],
+  "poses": [
+    {
+      "id": "casual_01",
+      "categoryId": "casual",
+      "title": "Relaxed Weight Shift",
+      "description": "Casual stance with weight on one leg and hands loosely in pockets.",
+      "difficulty": "Easy",
+      "framing": "Full Body",
+      "targetAngles": {
+        "leftElbow": 140.0,
+        "rightElbow": 145.0,
+        "leftShoulder": 25.0,
+        "rightShoulder": 25.0,
+        "leftKnee": 175.0,
+        "rightKnee": 165.0,
+        "torsoTilt": 3.0
+      },
+      "coachingPrompts": [
+        "Shift your weight slightly to your right leg",
+        "Keep hands relaxed near your pockets",
+        "Drop shoulders down and relax jaw"
+      ],
+      "silhouetteKeypoints": [
+        { "id": 0, "x": 0.50, "y": 0.16 },
+        { "id": 11, "x": 0.44, "y": 0.28 },
+        { "id": 12, "x": 0.56, "y": 0.28 },
+        { "id": 13, "x": 0.41, "y": 0.42 },
+        { "id": 14, "x": 0.59, "y": 0.42 },
+        { "id": 15, "x": 0.45, "y": 0.54 },
+        { "id": 16, "x": 0.55, "y": 0.54 },
+        { "id": 23, "x": 0.46, "y": 0.56 },
+        { "id": 24, "x": 0.54, "y": 0.56 },
+        { "id": 25, "x": 0.45, "y": 0.74 },
+        { "id": 26, "x": 0.56, "y": 0.73 },
+        { "id": 27, "x": 0.44, "y": 0.92 },
+        { "id": 28, "x": 0.58, "y": 0.90 }
+      ]
+    },
+    {
+      "id": "sitting_01",
+      "categoryId": "sitting",
+      "title": "Cafe Table Lean",
+      "description": "Leaning forward comfortably with forearm on table and slight head tilt.",
+      "difficulty": "Medium",
+      "framing": "Medium Shot",
+      "targetAngles": {
+        "leftElbow": 90.0,
+        "rightElbow": 105.0,
+        "leftShoulder": 45.0,
+        "rightShoulder": 35.0,
+        "leftKnee": 90.0,
+        "rightKnee": 90.0,
+        "torsoTilt": 12.0
+      },
+      "coachingPrompts": [
+        "Lean your torso gently forward toward the camera",
+        "Rest your left forearm comfortably",
+        "Tilt chin slightly down and to the side"
+      ],
+      "silhouetteKeypoints": [
+        { "id": 0, "x": 0.50, "y": 0.22 },
+        { "id": 11, "x": 0.42, "y": 0.35 },
+        { "id": 12, "x": 0.58, "y": 0.35 },
+        { "id": 13, "x": 0.38, "y": 0.50 },
+        { "id": 14, "x": 0.62, "y": 0.48 },
+        { "id": 15, "x": 0.46, "y": 0.58 },
+        { "id": 16, "x": 0.56, "y": 0.58 },
+        { "id": 23, "x": 0.44, "y": 0.66 },
+        { "id": 24, "x": 0.56, "y": 0.66 },
+        { "id": 25, "x": 0.42, "y": 0.85 },
+        { "id": 26, "x": 0.58, "y": 0.85 }
+      ]
+    },
+    {
+      "id": "leaning_01",
+      "categoryId": "leaning",
+      "title": "Wall Shoulder Rest",
+      "description": "One shoulder gently resting against a wall or column with legs crossed at the ankle.",
+      "difficulty": "Easy",
+      "framing": "Full Body",
+      "targetAngles": {
+        "leftElbow": 150.0,
+        "rightElbow": 120.0,
+        "leftShoulder": 15.0,
+        "rightShoulder": 30.0,
+        "leftKnee": 178.0,
+        "rightKnee": 160.0,
+        "torsoTilt": 6.0
+      },
+      "coachingPrompts": [
+        "Rest your outer shoulder against the wall",
+        "Cross your outside foot over your inside ankle",
+        "Look 20 degrees away from the lens"
+      ],
+      "silhouetteKeypoints": [
+        { "id": 0, "x": 0.46, "y": 0.18 },
+        { "id": 11, "x": 0.40, "y": 0.30 },
+        { "id": 12, "x": 0.52, "y": 0.31 },
+        { "id": 13, "x": 0.36, "y": 0.45 },
+        { "id": 14, "x": 0.55, "y": 0.44 },
+        { "id": 15, "x": 0.38, "y": 0.58 },
+        { "id": 16, "x": 0.50, "y": 0.56 },
+        { "id": 23, "x": 0.42, "y": 0.58 },
+        { "id": 24, "x": 0.50, "y": 0.58 },
+        { "id": 25, "x": 0.44, "y": 0.75 },
+        { "id": 26, "x": 0.49, "y": 0.76 },
+        { "id": 27, "x": 0.47, "y": 0.92 },
+        { "id": 28, "x": 0.45, "y": 0.92 }
+      ]
+    },
+    {
+      "id": "portrait_01",
+      "categoryId": "portrait",
+      "title": "Three-Quarter Editorial",
+      "description": "Flattering headshot angle with body angled 30 degrees and gaze directly into lens.",
+      "difficulty": "Easy",
+      "framing": "Close-up",
+      "targetAngles": {
+        "leftElbow": 160.0,
+        "rightElbow": 160.0,
+        "leftShoulder": 30.0,
+        "rightShoulder": 15.0,
+        "leftKnee": 180.0,
+        "rightKnee": 180.0,
+        "torsoTilt": 2.0
+      },
+      "coachingPrompts": [
+        "Turn your torso 30 degrees to the left",
+        "Turn your eyes back to look into the camera lens",
+        "Lower your chin 1 inch to define the jawline"
+      ],
+      "silhouetteKeypoints": [
+        { "id": 0, "x": 0.50, "y": 0.28 },
+        { "id": 11, "x": 0.38, "y": 0.48 },
+        { "id": 12, "x": 0.62, "y": 0.50 },
+        { "id": 13, "x": 0.32, "y": 0.70 },
+        { "id": 14, "x": 0.68, "y": 0.72 }
+      ]
+    },
+    {
+      "id": "mirror_01",
+      "categoryId": "mirror",
+      "title": "Mirror Selfie Classic",
+      "description": "One hand holding phone at chest height, other hand relaxed at hip.",
+      "difficulty": "Easy",
+      "framing": "Medium Shot",
+      "targetAngles": {
+        "leftElbow": 70.0,
+        "rightElbow": 135.0,
+        "leftShoulder": 55.0,
+        "rightShoulder": 25.0,
+        "leftKnee": 175.0,
+        "rightKnee": 168.0,
+        "torsoTilt": 4.0
+      },
+      "coachingPrompts": [
+        "Hold the phone at upper-chest height",
+        "Angle the phone slightly downward",
+        "Look at your reflection, not directly at the screen"
+      ],
+      "silhouetteKeypoints": [
+        { "id": 0, "x": 0.50, "y": 0.18 },
+        { "id": 11, "x": 0.43, "y": 0.30 },
+        { "id": 12, "x": 0.57, "y": 0.30 },
+        { "id": 13, "x": 0.45, "y": 0.42 },
+        { "id": 14, "x": 0.62, "y": 0.45 },
+        { "id": 15, "x": 0.50, "y": 0.38 },
+        { "id": 16, "x": 0.58, "y": 0.57 },
+        { "id": 23, "x": 0.45, "y": 0.58 },
+        { "id": 24, "x": 0.55, "y": 0.58 },
+        { "id": 25, "x": 0.46, "y": 0.78 },
+        { "id": 26, "x": 0.56, "y": 0.76 }
+      ]
+    }
+  ]
+}
